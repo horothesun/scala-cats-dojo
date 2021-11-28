@@ -1,9 +1,8 @@
 import cats.implicits._
 import cats.kernel.Semigroup
 
-
 object Main extends App {
-  //println("Hello, World!")
+  println("Hello, World!")
 
   println("Semigroup combine")
   println(s"  combine(1, 2): ${Semigroup[Int].combine(1, 2)}")
